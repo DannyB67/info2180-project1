@@ -9,3 +9,39 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+header {
+    display: flex; 
+    justify-content: center;  
+    background-color: bisque;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.overview-hero img{
+    float: left;
+    
+}
+
+
+img{
+    width: 400px;
+    height: 400px;
+}
