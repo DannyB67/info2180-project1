@@ -4,29 +4,46 @@
     font-size: 18px;
 }
 
+#email{
+    width: 630px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
 body {
     margin: 0;
     font-size: 16px;
+}
+
+main {
+    margin: 0px;
+    padding: 0;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
-    margin-bottom: 20px;
+    
 }
 
 header .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
 header {
     display: flex; 
     justify-content: center;  
+    align-items: center;
     background-color: white;
     font-size: 18px;
+    height: 60px;
+    padding: 20px;
     
 }
 header ul {
@@ -34,6 +51,7 @@ header ul {
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 header ul li a {
@@ -41,6 +59,15 @@ header ul li a {
     color: #6b7280;
     font-weight: bold;
     padding: 20px;
+}
+
+.overview-hero{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #E2E8F0;
 }
 
 header ul li a:hover {
@@ -53,13 +80,18 @@ main .overview-hero .container {
     align-items: center;
 }
 
-main .overview-hero{
-    background-color: #E2E8F0;
+main .overview-hero .container img{
+    padding-right: 25px;
+}
+
+main .learn-about{
+    padding: 20px;
 }
 
 main .learn-about .container .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     
 }
 
@@ -74,9 +106,10 @@ main .learn-about h3{
 }
 
 .card{
+    border: 2px solid;
     border-color: #E2E8F0 ;
     border-radius: 5px;
-    box-shadow: inset;
+    box-shadow: 5px 5px 10px grey;;
     padding: 20px;
 
 }
@@ -86,13 +119,25 @@ main .learn-about h3{
     color: white;
 }
 
+
+
 main .testing .container .cta{
     background-color: #48BB78;
     border-radius: 5px;
+    width: 15em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .testing{
     background-color: #4A5568;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 main .testing .container{
@@ -117,11 +162,24 @@ main .stories .container article img{
     border-radius: 50%;
 }
 
+main .stories{
+    padding: 20px;
+}
+
 main .newsletter{
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #48BB78;
+    color: white;
+    
+}
+
+main .newsletter .container form .btn{
+    background-color: #5A67D8;
+    width: 170px;
+    border: none;
 }
 
 main .newsletter .container{
@@ -131,6 +189,7 @@ main .newsletter .container{
 }
 
 main .newsletter .container form{
+
     display: flex;
     gap: 10px;
 }
@@ -138,6 +197,16 @@ main .newsletter .container form{
 .newsletter{
     height: 200px;
 }
+
+footer{
+    padding: 10px;
+    margin: 0;
+    height: 60px;
+    color: #fff;
+    background-color: #4A5568;
+}
+
+
 
 img{
     width: 250px;
